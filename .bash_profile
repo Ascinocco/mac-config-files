@@ -1,12 +1,21 @@
 #export path ----------------------------------------------
 export PATH="$PATH"
 
+#SET CLICOLOR for ansi colors in iTerm2
+export CLICOLOR=1
+
+#Set colors to match iTerm2 colors
+export TERM=xterm-256color
+
 #Terminal styling ----------------------------------------------
 #change prompt colors and configure prompt to "username@host:cwd $"
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 
-#change ls colors
-LSCOLORS=ExFxBxDxCxegedabagacad
+#change ls colors(old)
+#LSCOLORS=ExFxBxDxCxegedabagacad
+
+#change ls colors (new)
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 #Defaults ----------------------------------------------
 #default editor
@@ -14,6 +23,7 @@ export EDITOR="/usr/local/Cellar/nano/2.7.0/bin/nano"
 
 #Aliases here ----------------------------------------------
 #terminal convenience
+alias lsa="ls -a"
 alias ls="ls -lFG"
 alias cp="cp -v"
 alias mv="mv -v"
@@ -30,6 +40,8 @@ alias mkdir=make-dir
 alias myip="curl ip.appspot.com" #gets public ip
 
 #system
+alias enableTermMouseScroll="defaults write com.googlecode.iterm2 AlternateMouseScroll -bool true"
+alias disableTermMouseScroll="defaults write com.googlecode.iterm2 AlternateMouseScroll -bool true"
 alias clnDS="oldcd ~ && find . -type f -name '*.DS_Store' -ls -delete"
 alias clnLC="oldcd ~ && find . -type f -name '*.localized' -ls -delete"
 alias cln="clnDS; clnLC"
@@ -75,3 +87,5 @@ extract() {
 #Auto run on terminal opening ----------------------------------------------
 archey
 ls
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
