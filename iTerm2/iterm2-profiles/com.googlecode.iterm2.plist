@@ -27,7 +27,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/Personal/Projects/mac-config/mac-config-files/iterm2-profiles</string>
+	<string>~/Documents/Personal/Projects/mac-config/mac-config-files/iTerm2/iterm2-profiles</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -63,11 +63,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>-601 171 445 103 -1920 -56 1920 1057 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>1804 -127 606 456 1280 -280 1920 1057 </string>
+	<string>524 153 606 456 0 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1834 212 796 473 1280 -280 1920 1057 </string>
+	<string>555 490 796 473 0 0 1920 1057 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>2003 110 592 584 1280 -280 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-1234 449 650 423 -1920 -56 1920 1057 </string>
+	<string>0 34 1914 1023 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1368,7 +1370,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/anthony/Documents/Personal/Projects/mac-config/mac-config-files/iterm2-profiles</string>
+	<string>/Users/anthony/Documents/Personal/Projects/mac-config/mac-config-files/iTerm2/iterm2-profiles</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1385,6 +1387,8 @@
 	<real>0.10000000000000001</real>
 	<key>TabStyle</key>
 	<integer>2</integer>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1478278912</real>
 	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>Window Arrangements</key>
