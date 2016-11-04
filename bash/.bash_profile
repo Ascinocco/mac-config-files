@@ -1,3 +1,6 @@
+#load git branch script
+source ~/.git-prompt.sh
+
 #export path ----------------------------------------------
 export PATH="$PATH"
 
@@ -9,7 +12,7 @@ export TERM=xterm-256color
 
 #Terminal styling ----------------------------------------------
 #change prompt colors and configure prompt to "username@host:cwd $"
-export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\[$MAGENTA\]\$(__git_ps1)\[$WHITE\]\$ "
 
 #change ls colors(old)
 #LSCOLORS=ExFxBxDxCxegedabagacad
@@ -88,4 +91,6 @@ extract() {
 archey
 ls
 
-test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+#test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+[ -s "/Users/anthony/.scm_breeze/scm_breeze.sh" ] && source "/Users/anthony/.scm_breeze/scm_breeze.sh"
