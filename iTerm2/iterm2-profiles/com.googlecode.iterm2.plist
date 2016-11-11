@@ -22,6 +22,14 @@
 	<true/>
 	<key>HideTab</key>
 	<false/>
+	<key>Hotkey</key>
+	<true/>
+	<key>HotkeyChar</key>
+	<integer>105</integer>
+	<key>HotkeyCode</key>
+	<integer>34</integer>
+	<key>HotkeyModifiers</key>
+	<integer>524576</integer>
 	<key>JobName</key>
 	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -63,13 +71,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>-601 171 445 103 -1920 -56 1920 1057 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>524 153 606 456 0 0 1920 1057 </string>
+	<string>2189 195 606 456 1920 56 1280 1001 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>653 375 796 473 0 0 1920 1057 </string>
+	<string>608 292 937 465 0 0 1920 1057 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>2003 110 592 584 1280 -280 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 1914 1053 0 0 1920 1057 </string>
+	<string>960 34 954 1023 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1330,6 +1338,8 @@
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>499968800.34478498</real>
 	<key>OpenArrangementAtStartup</key>
@@ -1380,7 +1390,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-11-04T16:46:47Z</date>
+	<date>2016-11-11T02:41:15Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
