@@ -35,7 +35,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/Personal/Projects/mac-config/mac-config-files/iTerm2/iterm2-profiles</string>
+	<string>~/Documents/Personal/Projects/2017/mac-config-files/mac-config-files/iTerm2/iterm2-profiles</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -73,11 +73,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>2189 195 606 456 1920 56 1280 1001 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>608 292 937 465 0 0 1920 1057 </string>
+	<string>2182 316 796 473 1920 56 1280 1001 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>2003 110 592 584 1280 -280 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>960 34 954 1023 0 0 1920 1057 </string>
+	<string>0 34 954 1023 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -617,7 +617,7 @@
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
-			<integer>-1</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Selected Text Color</key>
@@ -1380,7 +1380,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/anthony/Documents/Personal/Projects/mac-config/mac-config-files/iTerm2/iterm2-profiles</string>
+	<string>/Users/anthony/Documents/Personal/Projects/2017/mac-config-files/mac-config-files/iTerm2/iterm2-profiles</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1390,7 +1390,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-11-11T02:41:15Z</date>
+	<date>2016-11-12T02:41:25Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
